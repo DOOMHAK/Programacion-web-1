@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayo Makween</title>
+    <!--ACA SE LINKEA CDN DE BOOTSTRAP-->
+    <link 
+        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--ACA LINKEAMOS EL estilo.css-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--ACA COLOCAMOS EL NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navcolor">
+  <div class="container-fluid">
+    <a href="#"><img src="imagenes/logomecanico.png" width="60" height="50"></a>
+    <a class="navbar-brand" href="#" id="navletra">Rayo Makween</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html" id="navletra">Inicio</a>
+        <a class="nav-link" href="contacto.html" id="navletra">Contacto</a>
+        <a class="nav-link" href="#" id="navletra">Pricing</a>
+        <a class="nav-link" href="#" id="navletra">Sobre nosotros</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- formulario de contacto-->
+
+<div class="container my-5">
+    <h2>Datos de contacto</h2>
+    <form>
+        <form>
+            <div class="form-row">
+              <div class="col">
+                <label>Nombre</label>
+                <input type="text" class="form-control" placeholder="Romina">
+              </div>
+              <div class="col">
+                <label>Apellido</label>
+                <input type="text" class="form-control" placeholder="Carrasco">
+              </div>
+            </div>
+          </form>
+        <div class="form-row">
+          <div class="form-group col-md-7">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="MAAKEEEN@gmail.com">
+          </div>
+          <div class="form-group col-mb-5">
+            <label for="numero">Celular</label>
+            <input type="tel" class="form-control" id="numero" name="numero">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="inputAddress">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder=" 124 santa clara">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Región</label>
+            <select id="inputState" class="form-control">
+              <option selected>Region Metropolitana</option>
+              <option>Región de Arica y Parinacota</option>
+              <option>Región de Tarapacá</option>
+              <option>Región de Antofagasta</option>
+              <option>Región de Atacama</option>
+              <option>Región de Coquimbo</option>
+              <option>Región de Valparaíso</option>
+              <option>Región de O'Higgins</option>
+              <option>Región del Maule</option>
+              <option>Región deL Ñuble</option>
+              <option>Región del BIOBIO</option>
+              <option>Región de la Araucanía</option>
+              <option>Región de los Ríos</option>
+              <option>Región de los Lagos</option>
+              <option>Región de Aysén</option>
+              <option>Region de Magallanes</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group col-6" >
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+
+</div>
+</body>
+</html>
