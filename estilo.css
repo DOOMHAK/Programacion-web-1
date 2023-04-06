@@ -5,4 +5,16 @@
 
 #navletra {
     color: black;
+    
 }
+
+#navtitulo{
+    color: white;
+    background-color: black;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 400px;
+  }
+  
