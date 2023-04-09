@@ -13,7 +13,7 @@
     <!--ACA LINKEAMOS EL estilo.css-->
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body id="fondo">
     <!--ACA COLOCAMOS EL NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navcolor">
         <div class="container-fluid">
@@ -26,8 +26,7 @@
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="index.html" id="navletra">Inicio</a>
               <a class="nav-link" href="contacto.html" id="navletra">Contacto</a>
-              <a class="nav-link" href="#" id="navletra">Pricing</a>
-              <a class="nav-link" href="#" id="navletra">Sobre nosotros</a>
+              <a class="nav-link" href="nosotros.html" id="navletra">Sobre nosotros</a>
               <a class="nav-link" href="registro.html" id="navletra">Crear cuenta</a>
             </div>
           </div>
@@ -83,7 +82,7 @@
             <input type="password" id="recontra" name="recontra">
           </div> 
             <!-- boton registrar -->
-          <input type="submit" value="Registrar" class="btn btn-primary" onclick="return registrar()">
+          <input type="submit" value="Registrar" class="btn btn-success" onclick="return registrar()">
 
           <!-- mensajes emergente de registro completado o no completado -->
           <div class="container-fluid">
