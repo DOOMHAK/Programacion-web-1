@@ -3,7 +3,7 @@
 <head>
     <!-- TIPO DE ESCRITURA ACEPTADA SU COMPATIBILIDAD Y MAS CARACTERISTICAS DE LA PAGINA -->
     <meta charset="UTF-8">
-    <meta content="dark" name="color-scheme">
+    <meta content="" name="color-scheme">
     <meta content="origin" name="referrer">
     <meta name="author" content="">
     <meta name="description" content="actividad-programacion-web">
@@ -40,6 +40,7 @@
         <a class="nav-link" href="contacto.html" id="navletra">Contacto</a>
         <a class="nav-link" href="nosotros.html" id="navletra">Sobre nosotros</a>
         <a class="nav-link" href="registro.html" id="navletra">Crear cuenta</a>
+        <a class="nav-link" href="iniciosesion.html" id="navletra">Iniciar sesión</a>
   </div>
 </div>
 </div>
@@ -49,7 +50,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 mx-auto">
-        <h1>Registro de datos</h1>
+        <h1>Creación de cuenta</h1>
 <!-- Aquí empieza el formulario-->
         <form id="registrocolor">
           <!-- aqui estan todos los parametros que se piden -->
@@ -79,6 +80,14 @@
           </div>
 
           <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="miCheckbox">
+              <label class="form-check-label" for="miCheckbox">
+                Subscripcion
+              </label>
+          </div>
+          </div>
+          <div class="form-group">
             <label for="foto">Foto de perfil:</label>
             <input type="file" id="foto" name="foto" accept="image/*">
           </div>
@@ -98,7 +107,7 @@
           <!-- mensajes emergente de registro completado o no completado -->
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-7">
+              <div class="col-md-10">
                 <div id="succes" style="display: none;"> registro completado, puedes volver al inicio.</div>
                 <div  id="error" style="display: block;"> </div>
               </div>
