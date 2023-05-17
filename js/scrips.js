@@ -14,30 +14,6 @@ var z;
 
 //script del registro con sus respectivos parametros de validacion
 
-//iniciar sesion
-function login(){
-    console.log('enviando datos desde js')
-
-    var mensaje = [];
-    
-    if(correo.value===null || correo.value===''){
-        mensaje.push('debe ingresar algun correo')
-        z=false
-    }else{
-        z=true
-    }
-
-    //validacion de datos requeridos para mostrar un mensaje de registro completado a traves de una variable z
-    if(z!==true){
-        error.innerHTML=mensaje.join(' || ');
-    }else{
-        succes.style.display = 'block';
-        error.style.display = 'none';
-    }
-    return false;
-}
-
-
 
 //registro
 function registrar(){
