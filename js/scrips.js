@@ -12,6 +12,22 @@ var error = document.getElementById('error');
 var succes = document.getElementById('succes');
 var z;
 
+var boton = document.querySelectorAll(".btn");
+var mostrarC = document.querySelectorAll(".no_mostrar");
+
+boton.forEach(function(elemento,indice){
+    elemento.addEventListener("click",function(){
+        mostrarC[indice].classList.toggle("mostrarC");
+        if(mostrarC[indice].classList.contains("mostrarC")){
+            elemento.innerHTML = "Ocultar";
+        }else{
+                elemento.innerHTML = "Mostrar descripción ";
+        }   
+    });
+})
+
+
+
 //script del registro con sus respectivos parametros de validacion
 
 

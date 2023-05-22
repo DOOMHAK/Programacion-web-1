@@ -82,5 +82,10 @@
 
 #contenedorpq {
     width: 30%;
-
+}
+.no_mostrar{
+    display: none;
+}
+.mostrarC{
+    display: block;
 }
