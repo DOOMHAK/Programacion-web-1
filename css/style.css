@@ -1,5 +1,6 @@
 #navcolor {
-    background-color: rgb(152, 214, 243);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,148,233,1) 100%);
     
 }
 
@@ -23,8 +24,9 @@
     height: 610px;
     width: 750px;
     padding: 30px  ; 
-    background-color: rgb(88, 190, 236);
-    border: solid rgb(138, 100, 226) ;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(145,173,255,1) 100%);
+    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
@@ -38,8 +40,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(88, 190, 236);
-    border: solid rgb(138, 100, 226) ;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(145,173,255,1) 100%);
+    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
@@ -61,11 +64,18 @@
 }
 
 #fondo{
-    background-color: rgb(152, 214, 243);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 75%);
 }
 
 #titulonosotros{
-    background-color: rgb(152, 214, 243);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(145,173,255,1) 100%);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
 }
 
 #contenedorgr {
@@ -77,10 +87,11 @@
     left: 0;
     right: 0;
     padding: 10px;
-    background-color: rgb(138, 100, 226);
+    background-color: rgba(238,174,202,1);
 }
 
 #contenedorpq {
     width: 30%;
 
 }
+
